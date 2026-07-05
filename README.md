@@ -1,8 +1,11 @@
 # 🛡️ SOC Bulk IOC Aggregator & Triage Engine
 
-*(Insert screenshot of the application running here)*
-![Bulk IOC Aggregator Dashboard View](https://via.placeholder.com/800x400?text=<img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/3a88696e-9723-4201-8d5e-53a15ef19b42" />
-)
+<img width="1919" height="1070" alt="image" src="https://github.com/user-attachments/assets/9d5c6a24-cda5-43f6-a97c-2fc03b9fad68" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f02042c4-78e2-41a2-962b-b0a196fc5f89" />
+
+<img width="1919" height="1073" alt="image" src="https://github.com/user-attachments/assets/753feb70-c65c-4cde-b372-273ce65dfbd7" />
+
 
 ## Overview
 As a SOC Analyst, I built this tool to automate the tedious process of initial threat triage. Instead of manually querying individual IPs and file hashes across multiple browser tabs, this Python application processes bulk indicators concurrently, visualizes the risk, and generates a defanged markdown report ready for ticketing systems (like Jira or TheHive).
