@@ -1,14 +1,24 @@
 # 🛡️ SOC Bulk IOC Aggregator & Triage Engine
 
-<img width="1919" height="1070" alt="image" src="https://github.com/user-attachments/assets/9d5c6a24-cda5-43f6-a97c-2fc03b9fad68" />
-
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f02042c4-78e2-41a2-962b-b0a196fc5f89" />
-
-<img width="1919" height="1073" alt="image" src="https://github.com/user-attachments/assets/753feb70-c65c-4cde-b372-273ce65dfbd7" />
-
-
-## Overview
 As a SOC Analyst, I built this tool to automate the tedious process of initial threat triage. Instead of manually querying individual IPs and file hashes across multiple browser tabs, this Python application processes bulk indicators concurrently, visualizes the risk, and generates a defanged markdown report ready for ticketing systems (like Jira or TheHive).
+
+---
+
+## 📸 Dashboard Preview
+
+### 1. The Threat Matrix Interface
+*A clean, Streamlit-powered UI allowing bulk input and visualizing risk levels with progress bars.*
+![Threat Matrix Interface](assets/image1.png)
+
+### 2. Defanged Ticketing Export
+*One-click generation of perfectly aligned, defanged Markdown tables ready to be pasted into incident notes.*
+![Ticketing Export View](assets/image2.png)
+
+### 3. Concurrent Processing Output
+*Fast execution of multiple IOCs hitting VirusTotal, AbuseIPDB, and AlienVault OTX simultaneously.*
+![Concurrent Processing Output](assets/image3.png)
+
+---
 
 ## 🚀 Features
 * **Bulk Processing:** Paste dozens of IOCs at once; the engine auto-detects if they are IPv4 addresses or File Hashes.
